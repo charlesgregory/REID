@@ -1,0 +1,9 @@
+Change Log from REIDv_0.1 to v_0.2
+-Organized GUI
+-Program now outputs cuts in the form of a .xls(Excel 97) document named "Restriction Digest"
+-Can also preform digest using multiple restriction enzymes, is no longer restricted to only one
+
+Future Plans
+-Ability to pull fasta files from other places than just the directory of REID
+-Ability to define clusters of fragments to simulate results from a gel digest
+-Ability to autogenerate graphs of digest in excel
