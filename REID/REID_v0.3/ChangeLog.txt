@@ -1,0 +1,10 @@
+Change Log from REIDv_0.2 to v_0.3
+-Now can do fragment sizes or restriction sites
+-Made code more effcient
+-Ability to pull fasta files from other places than just the directory of REID
+-Ability to run more than one fasta files at one
+
+Future Plans
+-Ability to define clusters of fragments to simulate results from a gel digest
+-Add remove file option
+-Move to .exe format
