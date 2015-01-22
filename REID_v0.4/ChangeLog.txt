@@ -1,0 +1,8 @@
+Change Log from REIDv_0.3 to v_0.4
+-Added early version of binning
+-Added more menu options
+
+Future Plans
+-Ability to define clusters of fragments
+-Add remove file option
+-Move to .exe format
