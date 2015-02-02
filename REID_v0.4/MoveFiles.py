@@ -1,5 +1,4 @@
 
-import tkinter
 from tkinter import *
 import os
 import shutil
@@ -22,10 +21,10 @@ def copytree(src, dst, symlinks=False, ignore=None):
             shutil.copy2(s, d)
             
 def process_file():
-    dst="C:\\Users\\musta_000\\Desktop\\REID\\REID_v0.4\\"
+    dst = "C:\\Users\\musta_000\\Desktop\\REID\\REID_v0.4\\"
     src = os.path.normpath(entry.get())
     if os.path.isdir(dst):
-       copytree(src, dst)
+        copytree(src, dst)
 root = Tk()
 root.title('Move Files')
 root.geometry("598x120+250+100")
@@ -41,11 +40,11 @@ f2.pack()
 
 
 
-Label(f1,text="Select Your Directory").grid(row=0, column=0, sticky='e')
+Label(f1, text="Select Your Directory").grid(row=0, column=0, sticky='e')
 entry = Entry(f1, width=50, textvariable=file_path)
-entry.grid(row=0,column=1,padx=2,pady=2,sticky='we',columnspan=25)
+entry.grid(row=0, column=1, padx=2, pady=2, sticky='we', columnspan=25)
 Button(f1, text="Browse", command=open_file).grid(row=0, column=27, sticky='ew', padx=8, pady=4)
-Button(f2, text="Move Files", width=32, command= process_file).grid(sticky='ew', padx=10, pady=10)
+Button(f2, text="Move Files", width=32, command=process_file).grid(sticky='ew', padx=10, pady=10)
 
 
 root.mainloop()
