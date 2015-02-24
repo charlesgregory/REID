@@ -1,0 +1,9 @@
+Change Log from REIDv_0.4 to v_0.5.1
+-Changed from binning to simulation
+-Annotated code
+
+Future Plans
+-Move to OOP style
+-Ability to define clusters of fragments
+-Add remove file option
+-Move to .exe format
