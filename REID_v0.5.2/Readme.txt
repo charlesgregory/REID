@@ -1,5 +1,5 @@
 Created using Python3.4 for 64 bit, Biopython 1.64 for 64 bit, xlwt future 0.8, xlrd.
-The program name is REIDv0.4. (Restriction Enzyme Identify version 0.5.1)
+The program name is REIDv0.5.2 (Restriction Enzyme Identify version 0.5.2)
 Created by Charles Gregory.
 
 Only fasta files.The fasta file must be in the same directory as the program.
@@ -28,8 +28,10 @@ If nothing is printed there are no sites.
 If you use the multiple program each .fasta will have a seperate sheet
 in the excel file.
 
-Simulate will take the fragments and simulate how they would travel through a gel
-currently the parameters are hard coded but that will change in future versions.
+Simulate will find similar fragment ranges that are present within all
+of the fasta files in the digest and report them back in txt file.
+This is based on a simulation of a virtual gel digest. Currently the 
+parameters are hard coded but that will change in future versions.
 
 This program was created in an effort to make a connection
 between clusters of fragment sizes from restricion enzyme digest of 

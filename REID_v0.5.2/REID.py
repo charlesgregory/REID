@@ -4,13 +4,13 @@ import subprocess
 
 #Enables the button commands
 def open1():
-    subprocess.call(" REIDv0.5.py 1", shell=True)
+    subprocess.call(" REIDv0.5.2.py 1", shell=True)
 def open2():
-    subprocess.call(" REIDv0.5-multiple.py 1", shell=True)
+    subprocess.call(" REIDv0.5.2-multiple.py 1", shell=True)
 def open3():
     subprocess.call(" MoveFiles.py 1", shell=True)
 def open4():
-    subprocess.call("Binning.py", shell=True)
+    subprocess.call("Analyze.py", shell=True)
 def open5():
     subprocess.call("Restriction Digest.xls", shell=True)
 readme = open("Readme.txt", "r")

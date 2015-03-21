@@ -1,4 +1,4 @@
-Change Log from REIDv_0.4 to v_0.5.1
+Change Log from REIDv_0.4 to v_0.5
 -Changed from binning to simulation
 -Annotated code
 
