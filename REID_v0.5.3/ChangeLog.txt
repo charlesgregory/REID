@@ -1,0 +1,7 @@
+Change Log from REIDv_0.5.2 to v_0.5.3
+-Can Define ranges of bps that are characteristic of all fasta files
+
+Future Plans
+-Move to OOP style
+-Add remove file option
+-Move from xls to xlsx
